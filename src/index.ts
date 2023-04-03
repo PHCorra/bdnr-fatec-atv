@@ -1,1 +1,4 @@
-console.log("teste")
+import { startDB } from "./infra/database/mongo";
+
+
+startDB();
